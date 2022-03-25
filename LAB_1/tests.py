@@ -52,6 +52,7 @@ TEST_CASES = [
     },
 ]
 
+# Вывод результатов теста в зависимости от результата функции
 def generate_test_results(test_results = []):
     array_length = len(test_results)
     for i in range(array_length):
